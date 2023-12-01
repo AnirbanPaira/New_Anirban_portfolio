@@ -54,15 +54,8 @@ function About({}: Props) {
 
         <div className="container scrollbar-hide h-52">
           <p className="text-sm md:text-base lg:text-lg overflow-y-scroll text-justify h-[180px]">
-            Hi, I'm Anirban Paira—a BTech-qualified Frontend Developer
-            specializing in React, React Native, Next.js, MongoDB, and Node.js.
-            Currently excelling at Yoctotta Pvt Ltd., I'm fueled by a passion
-            for crafting intuitive user interfaces and solving intricate coding
-            challenges. As I navigate my career, I'm eagerly seeking a new
-            challenge—a role that not only leverages my skills but also
-            encourages continuous growth and innovation. I'm driven to
-            contribute my expertise to a dynamic team dedicated to pushing
-            boundaries and creating impactful solutions.
+            Hi, I'm Anirban Paira—a BTech-qualified Frontend Developer.<br></br>{" "}
+            The Founder and CEO of Creativity
           </p>
         </div>
       </div>
