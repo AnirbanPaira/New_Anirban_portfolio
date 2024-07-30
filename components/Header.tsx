@@ -25,22 +25,32 @@ function Header({}: Props) {
         }}
       >
         <SocialIcon
-          url="https://www.youtube.com/"
+          url="https://www.youtube.com/anirbanpaira"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/"
+          url="https://www.twitter.com/anirbanpaira"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/"
+          url="https://www.instagram.com/anirban_paira"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.youtube.com/"
+          url="https://www.linkedin.com/in/anirban-paira-3a1b531a9"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+         <SocialIcon
+          url="https://www.whatsapp.com/"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+         <SocialIcon
+          url="https://www.github.com/AnirbanPaira"
           fgColor="gray"
           bgColor="transparent"
         />
