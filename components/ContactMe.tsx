@@ -11,7 +11,7 @@ type FormValues = {
 
 type Props = {};
 
-function ContactMe({}: Props) {
+function ContactMe({ }: Props) {
   const { register, handleSubmit } = useForm<FormValues>();
   const onSubmit: SubmitHandler<FormValues> = (formData) =>
     (window.location.href = `mailto:2002lucky30kail@gmail.com?subject=${formData.subject} &body=hi, my name is ${formData.name}.${formData.message}(${formData.email})`);
@@ -23,22 +23,22 @@ function ContactMe({}: Props) {
       <div className="flex flex-col space-y-3 mt-24">
         <h4 className="font-semibold text-center text-2xl">
           I have got just what you need.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">let's Talk</span>
+          <span className="decoration-[#F7AB0A]/50 underline">{`let's Talk`}</span>
         </h4>
 
         {/* icon */}
         <div className="space-y-3">
           <div className="flex items-center space-x-3 justify-center">
             <PhoneIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
-            <p className="">+919876543210</p>
+            <p className="">{`+917061433171`}</p>
           </div>
           <div className="flex items-center space-x-3 justify-center">
             <EnvelopeIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
-            <p className="">anirbanpaira@mail.com</p>
+            <p className="">pairaanirban2002@gmail.com</p>
           </div>
           <div className="flex items-center space-x-3 justify-center">
             <MapPinIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
-            <p className="">TLF Colony, Bilaspur-89657 </p>
+            <p className="">{`New colony tungri Chaibasa, Jharkhand-833201 `}  </p>
           </div>
         </div>
         <form
